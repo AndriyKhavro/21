@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlTest.DataGenerator", "MySqlTest.DataGenerator\MySqlTest.DataGenerator.csproj", "{5BD1EB0A-2985-49AF-8FDB-136AE826668A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlTest.Library", "MySqlTest.Library\MySqlTest.Library.csproj", "{895E74A8-71E4-4BD4-94BC-C2A5D4FA70D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD597AE5-8A40-4B92-A307-60DF0A9B5F32}"
+	ProjectSection(SolutionItems) = preProject
+		CreateTable.sql = CreateTable.sql
+		docker-compose.yml = docker-compose.yml
+		Readme.MD = Readme.MD
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD1EB0A-2985-49AF-8FDB-136AE826668A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD1EB0A-2985-49AF-8FDB-136AE826668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD1EB0A-2985-49AF-8FDB-136AE826668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD1EB0A-2985-49AF-8FDB-136AE826668A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895E74A8-71E4-4BD4-94BC-C2A5D4FA70D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895E74A8-71E4-4BD4-94BC-C2A5D4FA70D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895E74A8-71E4-4BD4-94BC-C2A5D4FA70D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895E74A8-71E4-4BD4-94BC-C2A5D4FA70D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF49708-6524-4637-9D1E-92A1E24597D4}
+	EndGlobalSection
+EndGlobal
